@@ -1,2 +1,2 @@
-# ibm_data_science_feb2026_capstone
+# ibm_data_science_jan2026_capstone
 Repository for the Data Science Capstone project
