@@ -7,38 +7,38 @@ The Data Science Methodology approach was used to systematically guide the proce
 
 More on the Methodology used:
 
-1. Business Understanding
+1. Business Understanding:
    • Can Falcon 9 first-stage landing success be predicted accurately?
    • Rocket reusability directly impacts launch cost and competitive advantage
    • This translates into a data science problem (Binary Classification)
 
-2. Analytic Approach
+2. Analytic Approach:
    • Supervised classification task
    • Justified the use of classification algorithms due to the binaary target variable (success vs failure)
 
-3. Data Requirements
+3. Data Requirements:
    • Identification of required data and features (Historical launch data)
    • Identification of the target variable representing landing success
 
-4. Data Collection
+4. Data Collection:
    • Identification of data sources (SpaceX API & Wikipedia)
    • Data retrieved programmatically and stored for processing
 
-5. Data Understanding and Preperation
+5. Data Understanding and Preperation:
    • Data cleaning, transformation and feature engineering (Pandas DataFrame)
    • Prepared datasets for analysis and modeling
    • This is where most of the work takes place (Garbage in, Garbage out - GIGO)
    
-7. Exploratory Data Analysis (EDA)
+7. Exploratory Data Analysis (EDA):
    • Insight discovery and visualization
    • Explored relationships between landing success and other features
 
-8. Modeling
+8. Modeling:
    • Model selection, training, and comparison
    • Training multiple classification models
    • Applied consistent training and testing process through the use of a ML pipeline
 
-9. Model Evaluation
+9. Model Evaluation:
    • Model performance metrics and interpretation through the use of pipelines
    • Evaluating models using various metrics
    • Applying Cross-Validation to support hyperparameter tuning combined with GridSearchCV
